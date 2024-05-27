@@ -7,10 +7,8 @@ EXAMPLE_VALUE2 = "test222"
 EXAMPLE_VALUE3 = "test333"
 """
 
-
 def convert_env_values(env_values):
     def transform_key(key):
-
         return key.lower().replace('_', '-')
     
     env_lines = env_values.strip().split('\n')
@@ -24,6 +22,9 @@ def convert_env_values(env_values):
 
     return '\n'.join(result)
 
-
+# Convert values and write to output.yaml
 converted_values = convert_env_values(env_values)
-print(converted_values)
+with open('output.yaml', 'w') as file:
+    file.write(converted_values)
+
+print("Converted values have been written to output.yaml")
