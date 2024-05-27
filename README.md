@@ -57,11 +57,11 @@ EXAMPLE_VAL3  = 'asdasd'
 ```yaml
 - name: EXAMPLE_VAL
   secretName: vc-fs-to-ts-dev-secrets
-  secretKey: asdasd
+  secretKey: example-val
 - name: EXAMPLE_VAL2
   secretName: vc-fs-to-ts-dev-secrets
-  secretKey: asdasd
+  secretKey: example-val2
 - name: EXAMPLE_VAL3
   secretName: vc-fs-to-ts-dev-secrets
-  secretKey: asdasd
+  secretKey: example-val3
 ```
