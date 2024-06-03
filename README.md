@@ -5,7 +5,7 @@ This script converts environment variable definitions into a specific YAML forma
 
 ```yaml
 - name: KEY
-  secretName: vc-fs-to-ts-dev-secrets
+  secretName: ab-cd-to-ed-dev-secrets
   secretKey: value
 ```
 
